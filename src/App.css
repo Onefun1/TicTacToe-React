@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  text-align: center;
 }
+.playingField {
+  width: 450px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.playingField__cell {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  font-size: 120px;
+  border: 2px solid black;
+  background-color: coral;
+  float: left;
+  box-sizing: border-box;
+}
+
+.restart__button {
+  width: 30%;
+  background-color: grey;
+  font-size: 30px;
+  border: 2px solid black;
+  position: inherit;
+  margin: auto;
+  cursor: pointer;
+}
+
+.restart__button:hover {
+  background-color: rgb(206, 198, 198);
+}
+
